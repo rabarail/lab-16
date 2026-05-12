@@ -22,6 +22,8 @@ with open ("world_fires_1_day.csv") as csvfile:
     for index, row in enumerate(reader):
         if index == 0:
             continue 
+        if index > 1000:
+            break
 
         try:
             latitude = float(row[0])
