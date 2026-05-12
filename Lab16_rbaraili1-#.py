@@ -7,6 +7,12 @@ The purpose of the program: Reads the world_fires_1_day.csv file that contains o
 Any info about starter code (If used, where it came from, link, etc.), and the: none
 Date5/11/2026 """
 
+ 
+import plotly.express as ex
+import csv 
+
 latitdue = []
 longitude = []
+brightnesses = []
+dates        = []
 
