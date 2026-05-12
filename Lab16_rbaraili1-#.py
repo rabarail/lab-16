@@ -36,4 +36,13 @@ with open ("world_fires_1_day.csv") as csvfile:
             print(f"Warning- Skipping row {index} due to invalid data.")
         
 
+figure = ex.scatter_geo(
+    lat=latitudes,
+    lon=longitudes,
+    color=brightnesses,
+    hover_name=dates,
+    title="Global Fire Detection",
+    projection= "orthographic",
+    color_continuous_scale="YlOrRd",
+)
 
