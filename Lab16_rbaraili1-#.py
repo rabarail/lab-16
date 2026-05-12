@@ -46,3 +46,5 @@ figure = ex.scatter_geo(
     color_continuous_scale="YlOrRd",
 )
 
+figure.show()
+figure.write_html("world_fires_map.html")
